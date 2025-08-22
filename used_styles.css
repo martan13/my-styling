@@ -1,0 +1,132 @@
+html{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    border: gray 2px solid;
+    margin-bottom: 25px;
+}
+
+/*colors*/
+
+.color{
+    width: 350px;
+    height: 90px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.sand{
+    background-color: rgb(234, 219, 198);
+}
+
+.pink{
+    background-color: rgb(238, 131, 185);
+}
+
+.souls{
+    background-color: rgb(26, 2, 32);
+    color: white;
+}
+
+.ocean{
+    background-color: rgb(32, 9, 102);
+    color: white;
+}
+
+.sky{
+    background-color: rgb(167, 228, 240);
+}
+
+/*fonts*/
+
+.fonts{
+    font-size: large;
+
+}
+
+.cursive{
+    font-family: 'Playwrite DK Loopet';
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+section.fonts div{
+    margin: 10px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.newspaper{
+    font-family: 'Tagesschrift';
+}
+
+.normal{
+    font-family: 'Nunito';
+}
+
+.fonth{
+    font-size: 20px;
+}
+
+/*styles*/
+
+section.styles div{
+    margin: 10px;
+    display: inline-block;
+    margin-right: 50px;
+    max-width: 45%;
+    font-size: large;
+}
+
+.main{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Tagesschrift;
+    margin-bottom: 0;
+}
+li{
+    font-size: large;
+}
+
+.sub{
+    font-weight: bold;
+    font-size: 18.75px;
+    font-family: Tagesschrift;
+}
+
+.norm{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Nunito;
+    display: inline;
+}
+
+.short{
+    font-weight: normal;
+    font-size: 11.72px;
+    font-family: Playwrite DK Loopet;
+    display: inline;
+}
